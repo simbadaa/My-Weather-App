@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    margin: 0 auto;
+    background: url(https://images.hdqwalls.com/download/mountains-retreat-minimal-beautiful-4k-vl-1366x768.jpg)
+      center/cover;
+    width: 600px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 20px;
+  }
+  
+  .textBlock,
+  .submitButton,
+  .cityName {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .textBlock {
+    font-size: 20px;
+    border: 2px solid cadetblue;
+    width: 80%;
+  }
+  
+  .submitButton {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    width: 19%;
+    padding: 10px;
+    background: rgb(240, 190, 125);
+    border: 2px solid rgb(240, 160, 160);
+  }
+  
+  .cityName {
+    text-align: center;
+    margin-top: 10px;
+    padding: 15px 10px;
+    border-radius: 20px;
+    width: 30%;
+    background: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(61, 47, 25);
+  }
+  
+  li {
+    list-style-type: none;
+    text-align: start;
+    margin-left: -40px;
+    background: rgba(219, 201, 201, 0.7);
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px 10px;
+    border-radius: 20px;
+    width: 30%;
+    margin-top: 10px;
+  }
+  
+  .mountains {
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 210px;
+    width: 290px;
+    opacity: 0.7;
+    border-radius: 100%;
+    filter: drop-shadow(10px 8px 6px #000000);
+  }
+  
+  .gradus {
+    position: absolute;
+    font-size: 70px;
+    font-family: Helvetica;
+    color: #0f0c2c;
+    opacity: 0.8;
+    margin-top: -150px;
+    margin-left: 310px;
+  }
+  
+  .celsius {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 300px;
+  }
+  
+  .celsius a {
+    filter: drop-shadow(10px 8px 6px #000000);
+    text-decoration: none;
+    color: #d8b248;
+    font-size: 40px;
+    font-family: Helvetica;
+    font-weight: bold;
+    opacity: 0.5;
+  }
