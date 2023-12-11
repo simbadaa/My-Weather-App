@@ -9,9 +9,10 @@
     background: url(https://images.hdqwalls.com/download/mountains-retreat-minimal-beautiful-4k-vl-1366x768.jpg)
       center/cover;
     width: 600px;
-    height: 300px;
+    height: 380px;
     border-radius: 30px;
     padding: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
   }
   
   .textBlock,
@@ -66,7 +67,7 @@
   
   .mountains {
     position: absolute;
-    margin-top: -180px;
+    margin-top: -220px;
     margin-left: 210px;
     width: 290px;
     opacity: 0.7;
@@ -80,13 +81,13 @@
     font-family: Helvetica;
     color: #0f0c2c;
     opacity: 0.8;
-    margin-top: -150px;
+    margin-top: -190px;
     margin-left: 310px;
   }
   
   .celsius {
     position: absolute;
-    margin-top: -80px;
+    margin-top: -120px;
     margin-left: 300px;
   }
   
