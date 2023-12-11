@@ -107,3 +107,11 @@
   .text1 {
     color: black;
   }
+
+  .karina {
+    transition: 0.3s;
+  }
+
+  .karina :hover {
+    color: orangered;
+  }
